@@ -1,0 +1,2 @@
+#WebSocketDemo
+之前的那个Demo一直调试出现问题就是因为Tomcat的WebSocket库和我通过Maven引入的WebSocket库冲突了，导致两个库都失效，所以一直访问出现404，握手失败。后来重新构建了这个Demo并且没有进行任何配置，只需要自己将Tomcat的kuWebSocket-api.jar通过User lib引入进来就可以了。
